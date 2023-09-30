@@ -1,0 +1,35 @@
+{
+  "author": "Gianni Narracci",
+  "bugs": {
+    "url": "https://github.com/gnarracci/api-node-mysql/issues"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1"
+  },
+  "description": "API NodeJS MySQL Docker Compose",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "homepage": "https://github.com/gnarracci/api-node-mysql#readme",
+  "keywords": [
+    "API",
+    "NodeJS",
+    "MySQL",
+    "Docker",
+    "Compose"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "api-node-mysql",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnarracci/api-node-mysql.git"
+  },
+  "scripts": {
+    "dev": "nodemon src/index"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
